@@ -1,0 +1,10 @@
+test
+coverage
+example
+*.html
+*.js
+.nyc_output
+.nycrc
+.git
+.babelrc
+README.md

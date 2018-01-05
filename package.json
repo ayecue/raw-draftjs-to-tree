@@ -1,0 +1,50 @@
+{
+  "name": "raw-content-state-to-tree",
+  "version": "1.0.2",
+  "description": "Converts a RawDraftContentState to a tree",
+  "main": "./src/index.js",
+  "scripts": {
+    "cover": "nyc --check-coverage --lines 80 npm test",
+    "lint": "eslint --ignore-pattern node_modules src",
+    "test": "mocha ./src/index.test.js ./src/**/*.test.js",
+    "benchmark": "node ./test/benchmark.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayecue/raw-draftjs-to-tree.git"
+  },
+  "keywords": [
+    "draftjs",
+    "tree",
+    "conversion",
+    "rawdraftjscontentstate",
+    "contentstate",
+    "rawdraftjs"
+  ],
+  "author": "swe <soerenwehmeier@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "deep-equal": "^1.0.1"
+  },
+  "devDependencies": {
+    "draft-convert": "^1.4.3",
+    "draft-js": "^0.10.0",
+    "draft-js-export-html": "^0.5.4",
+    "draftjs-to-html": "^0.7.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-config-google": "^0.7.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-mocha": "^4.9.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^3.1.0",
+    "nyc": "^8.3.0",
+    "sinon": "^1.17.6",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "rawdraftjs-to-tree": "^1.0.0"
+  }
+}
